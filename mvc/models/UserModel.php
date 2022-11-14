@@ -15,7 +15,7 @@ class UserModel extends DataModel{
     //======== Thêm người dùng mới
     public function AddUsers($fullname, $username, $password, $phonenum, $address)
     {
-        $qr = "INSERT INTO tbl_user VALUES (NULL, '$username ', ' $password ', '$phonenum ', ' $address ', '$fullname',b'0',b'0')";
+        $qr = "INSERT INTO tbl_user VALUES (NULL, '$username', '$password', '$phonenum', '$address', '$fullname',b'0',b'0')";
         $result = false;
         if(mysqli_query($this->con, $qr)) {
             $result = true;
