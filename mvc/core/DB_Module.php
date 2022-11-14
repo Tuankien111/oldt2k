@@ -4,7 +4,7 @@ class DataModel
     // Biến
     public $con; // => biến Connect
     protected $servername = "localhost";
-    protected $username = "root";
+    protected $username = "";
     protected $password = "";
     protected $dbname = "db_t2k";
 
